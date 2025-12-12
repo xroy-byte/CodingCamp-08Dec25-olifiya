@@ -20,8 +20,6 @@ function welcomeMessage() {
 
 /// form validation function
 function validateMessageForm() {
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
-    let errorMessage = "Please correct the following errors:\n";
+   
+
 }
