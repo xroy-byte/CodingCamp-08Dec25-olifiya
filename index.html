@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Olifiya</title>
+
+    <!--CSS Eksternal-->
+    <link rel="stylesheet" href="css\style.css">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="main-header p-[8x]">
+        <!--Logo-->
+        <div class="logo"></div>
+
+      <!--Navigation Bar-->
+        <nav class="flex">
+            <a class="border p-[4px]" href="#home-page">Home</a>
+            <a class="border p-[4px]" href="#my-profile-page">My Profile</a>
+            <a class="border p-[4px]" href="#portofolio-page">Portofolio</a>
+            <a class="border p-[4px]" href="#message-me-page">Message Me</a>
+        </nav>
+    </header>
+
+    <hr/>
+    <!--Main-->
+    <main>
+        <!--Home Page-->
+        <section id="home-page" class="min-h-[500px] text-center content-center"> 
+         <h2 class="text-xl font-bold" id="welcome-speech">Welcome to My Portofolio</h2> 
+         <p class="mt-2">I'm glad to have you here. Showcasing My Work and Creative Journey.</p>
+        </section>
+
+<hr/>
+
+        <!--My Profile Page-->
+        <section id="my-profile-page" class="amin-h-[500px] text-center content-center">
+            <h2 class="text-xl font-bold">About Me</h2>
+            <p class="mt-2">Hello! I'm Olifiya, a passionate developer with experience in web development and design. I love creating beautiful and functional websites.</p>
+        </section>
+
+<hr/>
+
+        <!--Portofolio Page-->
+        <section id="portofolio-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-xl font-bold">My Portofolio</h2>
+            <p class="mt-2">Here are some of my recent projects that showcase my skills and creativity.</p>
+        </section>
+
+ <hr/>
+
+        <!--Message Me Page-->
+        <section id="message-me-page" class="min-h-[500px] tmx-8">
+            <header>
+                <h2 class="text-xl font-bold">Message Me</h2>
+                <p class="mt-2">Feel free to reach out to me for collaborations, inquiries, or just to say hello!</p> 
+            </header>
+            <form>
+                <div class="mb4">
+                    <label class="block mb-2" for="name">Nama</label>
+                    <input class="w-full p-2 border rounded" type="text" id="name" name="name" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2" for="email">Email</label>
+                    <input class="w-full p-2 border rounded" type="email" id="email" name="email" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2" for="message">Message</label>
+                    <textarea class="w-full p-2 border rounded" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button class="bg-blue-500 text-white p-2 rounded" type="submit">Send Message</button>
+            </form>
+           
+    </main>
+    
+    <!--Footer-->
+    <footer>
+        <p class="text-center p-2">©2025 Olifiya. All right reserved.</p>
+    </footer>
+    <!--JS Eksternal-->
+    <script src="js/script.js"></script>
+</body>
+</html>

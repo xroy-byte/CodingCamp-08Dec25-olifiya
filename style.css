@@ -1,0 +1,13 @@
+.logo {
+    height: 75px;
+    width: 75px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/photos/checking-the-chemical-formula-in-academic-laboratory-picture-id545286316?k=6&m=545286316&s=612x612&w=0&h=b60jlw_pEamZrr8duPcIzz9vdWUFH91setlOvekMDEc=);
+    background-size: cover;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
